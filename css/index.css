@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +10,9 @@ body {
     padding: 10px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: #444;
 }
 
@@ -39,6 +41,9 @@ hr {
     margin: 10px 0;
 }
 
+
+/* Character Design */
+
 img {
     width: 23%;
 }
@@ -47,6 +52,6 @@ img {
     flex-direction: column;
 }
 
-.characters :hover{
+.characters :hover {
     width: 24%;
 }
