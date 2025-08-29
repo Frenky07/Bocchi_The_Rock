@@ -2,17 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
-h1,h5{
+h1,
+h5 {
     text-align: center;
 }
 
-h5{
+h5 {
     font-weight: 300;
 }
 
-hr{
+hr {
     margin: 0.2em 0;
     width: 30%;
 }
@@ -22,7 +27,7 @@ section {
     margin: 0.5em;
 }
 
-.Characters h3{
+.Characters h3 {
     padding: 10px;
 }
 
@@ -31,12 +36,12 @@ section {
     justify-content: space-evenly;
 }
 
-.Char img{
+.Char img {
     display: inline;
     width: 10em;
 }
 
-.Char img:hover{
+.Char img:hover {
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
