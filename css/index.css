@@ -4,54 +4,39 @@
     box-sizing: border-box;
 }
 
-body {
-    /* background: linear-gradient(to right, #ee95ea, #e67d7d); */
-    color: #000;
+h1,h5{
+    text-align: center;
+}
+
+h5{
+    font-weight: 300;
+}
+
+hr{
+    margin: 0.2em 0;
+    width: 30%;
+}
+
+section {
+    padding: 0.7em;
+    margin: 0.5em;
+}
+
+.Characters h3{
     padding: 10px;
 }
 
-h1,
-h2,
-h3 {
-    color: #444;
-}
-
-p {
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-.Judul {
+.Char {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
-.Disclaimer {
-    font-size: 0.9em;
-    color: #666;
-    text-align: center;
-    margin-top: 20px;
+.Char img{
+    display: inline;
+    width: 10em;
 }
 
-hr {
-    border: 0;
-    height: 1px;
-    background-color: #ccc;
-    margin: 10px 0;
-}
-
-
-/* Character Design */
-
-img {
-    width: 23%;
-}
-
-.characters {
-    flex-direction: column;
-}
-
-.characters :hover {
-    width: 24%;
+.Char img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
 }
