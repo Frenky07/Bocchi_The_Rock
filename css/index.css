@@ -12,6 +12,7 @@ body {
     background-color: #3c3c3c;
     color: #fce4ec;
     accent-color: #3949ab;
+    padding: 2em;
 }
 
 h1,
@@ -57,9 +58,14 @@ section {
 .Descriptions {
     display: flex;
     flex-direction: column;
+    gap: 1.5em;
 }
 
-.Hitori_Description,
+.Kessoku_Band {
+    margin-bottom: 1.5em;
+}
+
+/* .Hitori_Description,
 .Nijika_Description,
 .Ryo_Description,
 .Ikuyo_Description {
@@ -79,7 +85,7 @@ section {
 
 .close-btn:hover {
     color: #000;
-}
+} */
 
 /* HITORI GOTOH */
 
