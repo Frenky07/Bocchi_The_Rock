@@ -24,6 +24,11 @@ h5 {
     font-weight: 300;
 }
 
+h5 a {
+    color: #fce4ec;
+    text-decoration: none;
+}
+
 hr {
     margin: 0.2em 0;
     width: 30%;
@@ -49,7 +54,7 @@ section {
 }
 
 .Char img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: all 0.3s ease-in-out;
 }
 
@@ -65,7 +70,7 @@ section {
     margin-bottom: 1.5em;
 }
 
-/* .Hitori_Description,
+.Hitori_Description,
 .Nijika_Description,
 .Ryo_Description,
 .Ikuyo_Description {
@@ -85,7 +90,7 @@ section {
 
 .close-btn:hover {
     color: #000;
-} */
+}
 
 /* HITORI GOTOH */
 
@@ -101,6 +106,11 @@ section {
 
 .Hitori_Description img{
     width: 10em;
+}
+
+.Hitori_Description img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
 }
 
 .Hitori_Description h4 {
@@ -123,6 +133,11 @@ section {
     width: 10em;
 }
 
+.Nijika_Description img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
 .Nijika_Description h4 {
     line-height: 5em;
 }
@@ -143,6 +158,11 @@ section {
     width: 10em;
 }
 
+.Ryo_Description img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
 .Ryo_Description h4 {
     line-height: 5em;
 }
@@ -161,6 +181,11 @@ section {
 
 .Ikuyo_Description img{
     width: 10em;
+}
+
+.Ikuyo_Description img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
 }
 
 .Ikuyo_Description h4 {
