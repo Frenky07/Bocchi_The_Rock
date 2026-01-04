@@ -46,6 +46,7 @@ section {
 .Char {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 0.5rem;
 }
 
 .Char img {
@@ -53,141 +54,26 @@ section {
     width: 10em;
 }
 
-.Char img:hover {
+#Gotoh:hover {
+    border: 2px solid #fce4ec;
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
 }
 
-/* Character Description Kessoku Band */
-
-.Descriptions {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5em;
-}
-
-.Kessoku_Band {
-    margin-bottom: 1.5em;
-}
-
-.Hitori_Description,
-.Nijika_Description,
-.Ryo_Description,
-.Ikuyo_Description {
-    position: relative; 
-}
-
-.close-btn {
-    position: absolute;
-    top: 8px;
-    right: 12px;
-    font-size: 1.7em;
-    font-weight: bold;
-    color: #F8F9FA;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-
-.close-btn:hover {
-    color: #000;
-}
-
-/* HITORI GOTOH */
-
-.Hitori_Description {
-    background-color: #FFB3D1;
-    padding: 1em;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    gap: 1.5em;
-    color: #2D1B45;
-}
-
-.Hitori_Description img{
-    width: 10em;
-}
-
-.Hitori_Description img:hover {
+#nijika:hover {
+    border: 2px solid #f3d365;
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
 }
 
-.Hitori_Description h4 {
-    line-height: 5em;
-}
-
-/* NIJIKA IJICHI */
-
-.Nijika_Description {
-    background-color: #FFD700 ;
-    padding: 1em;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    gap: 1.5em;
-    color: #2C2C2C;
-}
-
-.Nijika_Description img{
-    width: 10em;
-}
-
-.Nijika_Description img:hover {
+#ryo:hover {
+    border: 2px solid #3a62a8;
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
 }
 
-.Nijika_Description h4 {
-    line-height: 5em;
-}
-
-/* RYO YAMADA */
-
-.Ryo_Description {
-    background-color: #4A90E2 ;
-    padding: 1em;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    gap: 1.5em;
-    color: #FFF;
-}
-
-.Ryo_Description img{
-    width: 10em;
-}
-
-.Ryo_Description img:hover {
+#ikuyo:hover {
+    border: 2px solid #e04d59;
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
-}
-
-.Ryo_Description h4 {
-    line-height: 5em;
-}
-
-/* IKUYO KITA */
-
-.Ikuyo_Description {
-    background-color: #FF4757;
-    padding: 1em;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    gap: 1.5em;
-    color: #F8F9FA;
-}
-
-.Ikuyo_Description img{
-    width: 10em;
-}
-
-.Ikuyo_Description img:hover {
-    transform: scale(1.05);
-    transition: all 0.3s ease-in-out;
-}
-
-.Ikuyo_Description h4 {
-    line-height: 5em;
 }
