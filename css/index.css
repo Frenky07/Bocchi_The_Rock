@@ -29,6 +29,10 @@ h5 a {
     text-decoration: none;
 }
 
+h5 a:hover {
+    text-decoration: underline;
+}
+
 hr {
     margin: 0.2em 0;
     width: 30%;

@@ -55,14 +55,38 @@ header {
     margin-top: 2em;
 }
 
+/* === Character Img == */
+
 .character-img img {
     border: 2px solid #fce4ec;
     width: 15rem;
     height: auto;
 }
 
+/* === Character info === */
+
 .character-info {
     float: right;
-    border: 2px solid #fff;
     margin-left: 1rem;
+}
+
+/* == Character Bio == */
+
+.character-bio {
+    border: 1px solid #fce4ec;
+    padding: 0.7rem;
+}
+
+.char-detail {
+    display: flex;
+    gap: 1rem;
+    white-space: pre-line;
+}
+
+/* == Character Personality == */
+
+.character-personality {
+    border: 1px solid #fce4ec;
+    margin-top: 0.5rem;
+    padding: 0.7rem;
 }
